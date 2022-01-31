@@ -1,0 +1,16 @@
+.UserList {
+  display: flex;
+  flex-direction: column;
+}
+.UserList__title {
+  text-align: center;
+}
+.UserList__inner {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+/*# sourceMappingURL=UserList.css.map */

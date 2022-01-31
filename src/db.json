@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alex",
+      "avatarUrl": "https://images.generated.photos/Kw_DkeGs3YuC8p6yckA8iVw5ofLjjXzm95TRYUCSAsQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjIwMjI5LmpwZw.jpg",
+      "admin": true,
+      "bots": []
+    },
+    {
+      "id": "2",
+      "name": "John",
+      "avatarUrl": "https://images.generated.photos/Kw_DkeGs3YuC8p6yckA8iVw5ofLjjXzm95TRYUCSAsQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjIwMjI5LmpwZw.jpg",
+      "admin": false,
+      "bots": []
+    },
+    {
+      "id": "3",
+      "name": "Booth",
+      "avatarUrl": "https://images.generated.photos/Kw_DkeGs3YuC8p6yckA8iVw5ofLjjXzm95TRYUCSAsQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjIwMjI5LmpwZw.jpg",
+      "admin": false,
+      "bots": []
+    },
+    {
+      "id": "4",
+      "name": "Ozzy",
+      "avatarUrl": "https://images.generated.photos/Kw_DkeGs3YuC8p6yckA8iVw5ofLjjXzm95TRYUCSAsQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjIwMjI5LmpwZw.jpg",
+      "admin": false,
+      "bots": []
+    },
+    {
+      "id": "5",
+      "name": "Corban",
+      "avatarUrl": "https://images.generated.photos/Kw_DkeGs3YuC8p6yckA8iVw5ofLjjXzm95TRYUCSAsQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjIwMjI5LmpwZw.jpg",
+      "admin": false,
+      "bots": []
+    }
+  ],
+  "bots": [
+    {
+      "id": "1",
+      "name": "Bot_1",
+      "users_id": [
+
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bot_2",
+      "users_id": [
+
+      ]
+    }
+  ]
+}

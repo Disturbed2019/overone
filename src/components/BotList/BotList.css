@@ -1,0 +1,16 @@
+.BotList {
+  display: flex;
+  flex-direction: column;
+}
+.BotList__title {
+  text-align: center;
+}
+.BotList__inner {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+/*# sourceMappingURL=BotList.css.map */

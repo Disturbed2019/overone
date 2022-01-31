@@ -1,0 +1,17 @@
+.BotItem {
+  display: flex;
+  justify-content: center;
+}
+.BotItem__content {
+  display: flex;
+}
+.BotItem__info {
+  width: 100%;
+}
+.BotItem__avatar img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+/*# sourceMappingURL=BotItem.css.map */
