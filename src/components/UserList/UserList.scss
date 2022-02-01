@@ -11,4 +11,7 @@
      flex-direction: column;
      margin: auto;
  }
+  &__list{
+    padding-inline-start: 0;
+  }
 }

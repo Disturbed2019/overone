@@ -17,9 +17,10 @@ export function fetchUsers() {
 export function searchUsers() {
     let searchItem = document.querySelector('.input').value;
     return async dispatch => {
-        dispatch(fetchUsersStart())
+        dispatch(fetchUsersStart());
         try {
-            const response = await axios.get(`users/search?query=${searchItem}`);
+            // const response = await axios.get(`users/search?query=${searchItem}`);
+            const response = await axios.get(`users.json`);
             const users = response.data;
             dispatch(fetchUsersSuccess(users))
         } catch (e) {

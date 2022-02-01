@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Layout from "./hoc/Layout";
 import UserList from "./components/UserList/UserList";
 import BotList from "./components/BotList/BotList";
-import {Route, Switch, Redirect, withRouter} from 'react-router-dom';
+import {Route, Switch, Redirect, withRouter, Link} from 'react-router-dom';
 
 class App extends Component{
     render() {
@@ -16,6 +16,7 @@ class App extends Component{
 
         return (
             <Layout>
+
                 {routes}
             </Layout>
         );

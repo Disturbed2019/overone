@@ -12,5 +12,8 @@
   flex-direction: column;
   margin: auto;
 }
+.UserList__list {
+  padding-inline-start: 0;
+}
 
 /*# sourceMappingURL=UserList.css.map */

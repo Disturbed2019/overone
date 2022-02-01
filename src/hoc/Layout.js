@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import classes from './Layout.css';
+import Navigation from "../components/Navigation/Navigation";
 
 class Layout extends Component {
-    state = {
-        menu:false
-    };
+
 
     render () {
         return (
             <div className={classes.Layout}>
+                <Navigation/>
                 <main>
                     {this.props.children}
                 </main>

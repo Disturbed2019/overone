@@ -1,0 +1,7 @@
+.Nav{
+  list-style: none;
+  display: flex;
+  &__item:not(:last-child){
+    margin-right: 15px;
+  }
+}

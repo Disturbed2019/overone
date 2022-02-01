@@ -27,17 +27,18 @@ class UserList extends Component{
     render() {
         return (
             <Fragment>
-                {/*<div>*/}
-                {/*    <input type="text" className={'input'}/>*/}
-                {/*    <button onClick={this.props.searchUsers}>search</button>*/}
-                {/*    <button onClick={this.props.fetchUsers}>Reset</button>*/}
-                {/*</div>*/}
+
 
 
                 <div className={'UserList'}>
                     <h1 className={'UserList__title'}>Users List</h1>
-                    <div className="UserList__inner">
-                        <ul>
+                    <div>
+                        <input type="text" className={'input'} placeholder={'Search user'}/>
+                        <button onClick={this.props.searchUsers}>search</button>
+                        {/*<button onClick={this.props.fetchUsers}>Reset</button>*/}
+                    </div>
+                    <div className={'UserList__inner'}>
+                        <ul className={'UserList__list'}>
                             {
                                 this.props.users.loading
                                     ? <Loader />
@@ -62,7 +63,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     return {
         fetchUsers: () => dispatch(fetchUsers()),
-        // searchUsers: () => dispatch(searchUsers())
+        searchUsers: () => dispatch(searchUsers())
     }
 }
 
